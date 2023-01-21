@@ -1,0 +1,162 @@
+
+body {
+	background-color: darkred;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	height: 35vh;
+	margin-top: 5px;
+}
+
+
+.usuario {
+	display: flex;
+	gap: 10px;
+}
+
+.usuario1{
+	border: 4px solid black;
+	border-radius: 30px;
+}
+
+.usuario2{
+	border: 4px solid black;
+	border-radius: 30px;
+}
+
+.usuario3{
+	border: 4px solid black;
+	border-radius: 30px;
+}
+
+
+.pc {
+	display: flex;
+	gap: 10px;
+}
+
+.pc1{
+	border: 4px solid black;
+	border-radius: 30px;
+}
+
+.pc2{
+	border: 4px solid black;
+	border-radius: 30px;
+}
+
+.pc3{
+	border: 4px solid black;
+	border-radius: 30px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	margin: 10px 5px;
+}
+
+.container-usuario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container-computadora {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+}
+
+.mensaje {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.datos {
+	width: 300px;
+	height: 31px;
+}
+
+.seleccion-usuario {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5px;
+	font-weight: 900;
+	font-size: 25px;
+
+}
+
+.seleccion-computadora {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5px;
+	font-weight: 900;
+	font-size: 25px;
+
+}
+
+.entrada {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input {
+	display: flex;
+}
+
+#resultado {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	font-weight: 900;
+	font-size: 25px;
+	margin-left: 150px;
+}
+
+#resultadopc {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	font-weight: 900;
+	font-size: 25px;
+	margin-right : 160px;
+
+
+}
+
+.container-resultados{
+	display: flex;
+	justify-content: space-around;
+}
+
+#opcion-container {
+	display: flex;
+	gap: 20px;
+	justify-content: space-around;
+}
+
+#opcion-usuario {
+	font-weight: 900;
+	font-size: 20px;
+
+}
+
+#opcion-computadora {
+	font-weight: 900;
+	font-size: 20px;	
+}
+
+#decision {
+	font-weight: 900;
+	font-size: 40px;
+
+}

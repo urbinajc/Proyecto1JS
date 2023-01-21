@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="proyectojs.css">
+	<title>Piedra Papel o Tijeras</title>
+</head>
+<body>
+<div class="entrada">
+	<h1> Piedra Papel o Tijeras</h1>
+	<h2 class="mensaje">Bienvenido</h2>
+	<div class="input">
+	<input id="input-1"  class="datos" type="text" placeholder="Por favor introduzca una opcion">
+	<button onclick="seleccion()"  >Enviar</button>
+	</div>
+</div>
+<div class="container">
+	<div class="container-usuario">
+		<div>
+			<h2>Usuario</h2>
+		</div>
+		<div class="container-seleccion">
+			<div class="usuario">
+				<button class="usuario1" ><img src="Piedra.png" width="100px" height="100px"></button>
+				<button class="usuario2"><img src="Papel.png" width="100px" height="100px"></button>
+				<button class="usuario3"><img src="Tijeras.png" width="100px" height="100px"></button>
+			</div>
+			<div class="seleccion-usuario">
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="container-computadora">
+		<div>
+			<h2>Computadora</h2>
+		</div>
+				<div class="container-selecionpc">
+						<div class="pc">
+							<button class="pc1"><img src="Piedra.png" width="100px" height="100px"></button>
+							<button class="pc2"><img src="Papel.png" width="100px" height="100px"></button>
+							<button class="pc3"><img src="Tijeras.png" width="100px" height="100px"></button>
+						</div>
+						<div class="seleccion-computadora">
+							<div>1</div>
+							<div>2</div>
+							<div>3</div>
+						</div>
+				</div>
+	</div>
+
+
+</div>
+
+<div id="opcion-container">
+	<div>
+		<p id="opcion-usuario"></p>
+	</div>
+	<div>
+		<p id="opcion-computadora"></p>
+	</div>
+</div>
+
+
+<div class="container-resultados">
+	<div>
+		<p id="resultado"></p>
+
+	</div>
+
+	<div>
+		<p id="decision"></p>
+	</div>
+
+
+	<div>
+		<p id="resultadopc"></p>
+
+	</div>
+</div>
+
+
+	<div>
+		<p id="contador"></p>
+
+	</div>
+
+
+
+
+
+</body>
+<script type="text/javascript" src="proyectojs.js"></script>
+</html>
